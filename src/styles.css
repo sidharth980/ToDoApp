@@ -1,3 +1,10 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
 .Application {
   font-family: sans-serif;
 }
@@ -6,3 +13,12 @@
   text-align: center;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  margin: 10px;
+}
