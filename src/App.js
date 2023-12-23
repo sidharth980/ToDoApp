@@ -1,10 +1,12 @@
+import Header from "./components/Header/Header";
+import ToDoList from "./components/ToDoList/ToDoList";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="Application">
-      <h1>Aye Captain! 🫡</h1>
-      <h2>Lets create something!</h2>
+      <Header headerText={"ToDo app"}/>
+      <ToDoList text={"Nothing to do buddy. Sleep!!"}/>
     </div>
   );
 }
