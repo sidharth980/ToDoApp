@@ -5,12 +5,21 @@ body {
   margin: 0;
 }
 
+.subhead{
+  font-style: italic;
+}
+
 .Application {
   font-family: sans-serif;
 }
 
 .Header {
   text-align: center;
+}
+
+.todo{
+  justify-content: center;
+  display: grid;
 }
 
 ul {
@@ -21,4 +30,9 @@ ul {
 
 li {
   margin: 10px;
+}
+
+.delete-button{
+  text-align: center;
+  justify-content: center;
 }
